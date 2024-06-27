@@ -4,7 +4,20 @@ console.log(hi);
 var AllnavAnchortag = document.querySelectorAll("#Header-links a");
 console.log(AllnavAnchortag);
 
-for (let i = 0; i < 4; i++) {
+//for home button
+AllnavAnchortag[0].addEventListener("click", function () {
+    console.log("home button clicked");
+    window.scrollTo(
+        {
+            top: 0,
+            behaviour: 'smooth',
+
+
+        }
+    )
+});
+
+for (let i = 1; i < 4; i++) {
     AllnavAnchortag[i].addEventListener("click", function (event) {
         event.preventDefault();
 
