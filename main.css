@@ -245,15 +245,20 @@ section:nth-child(2n + 1) {
     box-shadow: 1px 1px 5px 2px #989882;
 }
 
+.skill-name {
+    display: flex;
+    justify-content: center;
+}
+
 .skill-name span {
     color: white;
     font-size: 1rem;
-    margin-left: 10px;
-    margin-top: 2rem;
+
     vertical-align: bottom;
     padding: 0.4rem;
-    padding-top: 0.3rem;
+
     font-weight: 500;
+    text-align: center;
 }
 
 /*                                                      Experience and Education section  */
@@ -282,6 +287,26 @@ section:nth-child(2n + 1) {
     border-radius: 50%;
     z-index: 1;
 }
+
+
+#letsgrowmoreLogo {
+    position: relative;
+    left: 0.2rem;
+}
+
+#internsavy {
+    position: relative;
+    left: -0.2rem;
+
+}
+
+#nitlogo {
+    position: relative;
+    left: -0.2rem;
+    top: 0.2rem;
+
+}
+
 
 .timeline-box:nth-child(2n) {
     left: 53%;
