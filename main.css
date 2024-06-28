@@ -227,6 +227,12 @@ section:nth-child(2n + 1) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    position: relative;
+    top: -50px;
+}
+
+#Movement {
+    position: relative;
 }
 
 .skill-progress {
@@ -236,9 +242,11 @@ section:nth-child(2n + 1) {
     border-radius: 1rem;
     box-shadow: 1px 1px 2px 1px #bbb8b8 inset;
 
-    margin: 25px;
+
+    margin: 30px;
     overflow: hidden;
 }
+
 
 .skill-progress>div {
     border-radius: 20px 0px 0px 20px;

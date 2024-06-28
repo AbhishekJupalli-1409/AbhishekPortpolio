@@ -1,0 +1,5 @@
+//handle scroll events on windows
+//check skills section visible
+// when visiblel fire the annimation
+//all the skills should move from left to right
+//store skill level -> hmtl with the help data attribute
